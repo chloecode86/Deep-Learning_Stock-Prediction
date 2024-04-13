@@ -12,13 +12,13 @@ The dataset is obtained from yahooFinance. <br />
 <br />
 
 #### Exploratory Data Analysis
-<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Stocks_Adj_Closing.png" width="650" height="420"> <br /> 
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Stocks_Adj_Closing.png" width="600" height="420"> <br /> 
 <br />
-<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Stocks_Volume.png" width="650" height="420"> <br /> 
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Stocks_Volume.png" width="600" height="420"> <br /> 
 <br /> 
-<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Regression.png" width="550" height="480"> <br /> 
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Regression.png" width="500" height="430"> <br /> 
 <br /> 
-<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Heatmap.png" width="550" height="480"> <br /> 
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Heatmap.png" width="300" height="250"> <br /> 
 <br /> 
 #### Models Building
 LSTM Architecture <br />
@@ -38,11 +38,11 @@ LSTM Architecture <br />
 #### Models Evaluation
 Best model: <br /> 
 
-<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Model_Architecture.png" width="500" height="400"> <br /> 
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Model_Architecture.png" width="500" height="350"> <br /> 
 <br /> 
 
 Evaluation: <br />
-<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Classification_report.png" width="500" height="400"> <br /> 
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Classification_report.png" width="400" height="320"> <br /> 
 <br /> 
 <img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Confusion_matrix.png" width="300" height="250"> <br /> 
 <br /> 
