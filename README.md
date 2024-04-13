@@ -1,4 +1,4 @@
-# Neural Network Project
+# Neural Network LSTM Project
 >### META Stock Prediction <br />
 <img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/META.jpeg" width="600" height="280"> <br /> 
 <br /> 
