@@ -1,38 +1,51 @@
-# Neutral Network Project
->### Stock Prediction <br />
-<img src="https://github.com/chloecode86/Classification-AML/blob/main/image/AML_image.jpeg" width="600" height="280"> <br /> 
+# Classification Project
+>### AML Prediction <br />
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/META.jpeg" width="600" height="280"> <br /> 
 <br /> 
 
 #### Business Objective
-To detect money laundering based on various features.
+To predict the movement of the FB stock price based on previous 21 days of trading of three stocks: META, AMZN and INTC.
 <br /> 
 
 #### Data Collection
-The dataset is obtained from Kaggle. <br /> 
+The dataset is obtained from yahooFinance. <br /> 
 <br />
-• Time and Date <br />
-• Sender and Receiver Account Details <br />
-• Amount <br />
-• Payment Type (eg. credit card, debit card, cash, ACH transfers, cross-border, and cheque) <br />
-• Sender and Receiver Bank Location <br />
-• Payment and Receiver Currency <br />
-• 'Is Suspicious' Feature (Binary indicator) <br />
-• Type (Classifies typologies) <br />
-<br />
+
 #### Exploratory Data Analysis
-<img src="https://github.com/chloecode86/Classification-AML/blob/main/image/Laundering_type.png" width="650" height="380"> <br /> 
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Stocks_Adj_Closing.png" width="650" height="380"> <br /> 
 <br />
-<img src="https://github.com/chloecode86/Classification-AML/blob/main/image/Payment_type.png" width="400" height="300"> <br /> 
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Stocks_Volume.png" width="400" height="300"> <br /> 
 <br /> 
-<img src="https://github.com/chloecode86/Classification-AML/blob/main/image/Correlation_matrix.png" width="600" height="530"> <br /> 
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Regression.png" width="600" height="530"> <br /> 
 <br /> 
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Heatmap.png" width="600" height="530"> <br /> 
+<br /> 
+#### Models Building
+#####LSTM Architecture <br />
+
+Activation function: ReLu and Sigmoid <br />
+
+Cross-validation: Random Search is used to find the best model. <br />
+
+search_space = {"lstm_size":     np.linspace(50, 200, 5, dtype = int), <br />
+                "dropout":       np.linspace(0, 0.4, 2), <br />
+                "learning_rate": np.linspace(0.004, 0.01, 4)} <br />
+
+- LSTM size refers to the number of units in the layer that has a memory state and a gate mechanism that controls the flow of information <br />
+- Dropout refers to the nodes that are dropped by a probability to prevent overfitting <br />
+- Learning rate refers to the magnitude of weight updates for minimising the network's loss function <br />
+
 #### Models Evaluation
-1. Naive Bayes <br />
-   - Recall : 0.47 <br />
-2. Logistic Regression <br />
-   - Recall : 0.56 <br />
-3. KNN <br />
-   - Recall : 0.96 <br />
+Best model: <br /> 
+
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Model_Architecture.png" width="600" height="530"> <br /> 
+<br /> 
+
+Evaluation: <br />
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Classification_report.png" width="600" height="530"> <br /> 
+<br /> 
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Confusion_matrix.png" width="600" height="530"> <br /> 
+<br /> 
 4. SVC <br />
    - Recall : 0.97 <br />
 <img src="https://github.com/chloecode86/Classification-AML/blob/main/image/Confusion_matrix_SVC.png" width="300" height="250"> <br /> 
