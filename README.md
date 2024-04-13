@@ -4,7 +4,7 @@
 <br /> 
 
 #### Business Objective
-To predict the movement of the FB stock price based on previous 21 days of trading of three stocks: META, AMZN and INTC.
+To predict the movement of the FB stock price based on previous 21 days of trading of three stocks: META, AMZN and INTC. <br /> 
 <br /> 
 
 #### Data Collection
@@ -18,7 +18,7 @@ The dataset is obtained from yahooFinance. <br />
 <br /> 
 <img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Regression.png" width="500" height="430"> <br /> 
 <br /> 
-<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Heatmap.png" width="300" height="250"> <br /> 
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Heatmap.png" width="350" height="280"> <br /> 
 <br /> 
 #### Models Building
 LSTM Architecture <br />
@@ -38,11 +38,12 @@ LSTM Architecture <br />
 #### Models Evaluation
 Best model: <br /> 
 
-<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Model_Architecture.png" width="500" height="350"> <br /> 
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Model_Architecture.png" width="500" height="300"> <br /> 
 <br /> 
 
 Evaluation: <br />
-<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Classification_report.png" width="400" height="320"> <br /> 
+
+<img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Classification_report.png" width="400" height="300"> <br /> 
 <br /> 
 <img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Confusion_matrix.png" width="300" height="250"> <br /> 
 <br /> 
