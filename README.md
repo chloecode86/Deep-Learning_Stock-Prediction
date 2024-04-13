@@ -45,5 +45,7 @@ Evaluation: <br />
 <br />
 <img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Classification_report.png" width="400" height="300"> <br /> 
 <br /> 
+Predictive variable 1 if the stock return is positive and 0 otherwise. <br /> 
+<br /> 
 <img src="https://github.com/chloecode86/Deep-Learning_Stock-Prediction/blob/main/image/Confusion_matrix.png" width="300" height="250"> <br /> 
 <br /> 
